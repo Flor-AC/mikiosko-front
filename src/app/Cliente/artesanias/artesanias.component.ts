@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import {Router} from "@angular/router";
 
 @Component({
-  selector: 'app-compra',
-  templateUrl: './compra.component.html',
-  styleUrls: ['./compra.component.css']
+  selector: 'app-artesanias',
+  templateUrl: './artesanias.component.html',
+  styleUrls: ['./artesanias.component.css']
 })
-export class CompraComponent implements OnInit {
+export class ArtesaniasComponent implements OnInit {
 
   constructor(private router: Router) { }
 
@@ -25,7 +25,7 @@ export class CompraComponent implements OnInit {
     this.router.navigate(['principal']);
   }
 
-  IrArtesano() {
-    this.router.navigate(['artesanias']);
+  Volver() {
+    this.router.navigate(['compra']);
   }
 }

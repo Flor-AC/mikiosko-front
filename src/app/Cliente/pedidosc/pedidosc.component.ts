@@ -2,19 +2,19 @@ import { Component, OnInit } from '@angular/core';
 import {Router} from "@angular/router";
 
 @Component({
-  selector: 'app-compra',
-  templateUrl: './compra.component.html',
-  styleUrls: ['./compra.component.css']
+  selector: 'app-pedidosc',
+  templateUrl: './pedidosc.component.html',
+  styleUrls: ['./pedidosc.component.css']
 })
-export class CompraComponent implements OnInit {
+export class PedidoscComponent implements OnInit {
 
   constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
-  MisPedidos() {
-    this.router.navigate(['pedidoc']);
+  Volver() {
+    this.router.navigate(['compra']);
   }
 
   Perfil() {
@@ -23,9 +23,5 @@ export class CompraComponent implements OnInit {
 
   Principal() {
     this.router.navigate(['principal']);
-  }
-
-  IrArtesano() {
-    this.router.navigate(['artesanias']);
   }
 }

@@ -9,6 +9,9 @@ import {IngresarComponent} from "./Aretesano/ingresar/ingresar.component";
 import {CompraComponent} from "./Cliente/compra/compra.component";
 import {ProductosComponent} from "./Aretesano/productos/productos.component";
 import {PedidosComponent} from "./Aretesano/pedidos/pedidos.component";
+import {PedidoscComponent} from "./Cliente/pedidosc/pedidosc.component";
+import {PerfilComponent} from "./Cliente/perfil/perfil.component";
+import {ArtesaniasComponent} from "./Cliente/artesanias/artesanias.component";
 
 const routes: Routes = [
   {path: 'principal', component: PrincipalComponent},
@@ -20,6 +23,9 @@ const routes: Routes = [
   {path: 'compra', component: CompraComponent},
   {path: 'producto', component: ProductosComponent},
   {path: 'pedido', component: PedidosComponent},
+  {path: 'pedidoc', component: PedidoscComponent},
+  {path: 'perfil', component: PerfilComponent},
+  {path: 'artesanias', component: ArtesaniasComponent},
   {path: '', component: PrincipalComponent}
 ];
 

@@ -15,10 +15,10 @@
       <div class="collapse navbar-collapse" id="navbarColor02" style="margin-left: 500px">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link" (click)="MisPedidos()">Mis pedidos</a>
+            <a class="nav-link" (click)="Volver()">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" (click)="Perfil()" style="margin-left: 50px">Perfil</a>
+            <a class="nav-link" (click)="Perfil()" style="margin-left: 50px">Mis Pedidos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" (click)="Principal()" style="margin-left: 50px">Cerrar Sesión</a>
@@ -29,18 +29,21 @@
   </nav>
 </div>
 
-<div style="margin-left: 350px; margin-top: 50px; margin-right: 350px">
+<div style="text-align: center; margin-top: 50px">
+  <h1>Mi Perfil</h1>
+</div>
+
+<div style="margin-left: 150px; margin-top: 50px; margin-right: 150px">
   <div class="card mb-3">
-    <h3 class="card-header">María Hernandez</h3>
-    <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+    <h3 class="card-header">Flor Arenas</h3>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="50%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
       <rect width="100%" height="100%" fill="#868e96"></rect>
       <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
     </svg>
     <div class="card-body">
-      <p class="card-text">Vende figuras de barro y de ceramica.</p>
-    </div>
-    <div class="card-body" style="margin: auto">
-      <button (click)="IrArtesano()" type="button" class="btn btn-primary">Ir</button>
+      <p class="card-text">Nombre Usuario:</p>
+      <p class="card-text">Edad:</p>
+      <p class="card-text">Dirección:</p>
     </div>
   </div>
 </div>

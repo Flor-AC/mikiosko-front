@@ -12,6 +12,9 @@ import {IngresarComponent} from "./Aretesano/ingresar/ingresar.component";
 import {RegistrarAComponent} from "./Aretesano/registrar-a/registrar-a.component";
 import { PedidosComponent } from './Aretesano/pedidos/pedidos.component';
 import { ProductosComponent } from './Aretesano/productos/productos.component';
+import { PerfilComponent } from './Cliente/perfil/perfil.component';
+import { PedidoscComponent } from './Cliente/pedidosc/pedidosc.component';
+import { ArtesaniasComponent } from './Cliente/artesanias/artesanias.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { ProductosComponent } from './Aretesano/productos/productos.component';
     RegistrarAComponent,
     RegistrarCComponent,
     PedidosComponent,
-    ProductosComponent
+    ProductosComponent,
+    PerfilComponent,
+    PedidoscComponent,
+    ArtesaniasComponent
   ],
   imports: [
     BrowserModule,

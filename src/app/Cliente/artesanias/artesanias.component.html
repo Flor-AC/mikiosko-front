@@ -15,7 +15,10 @@
       <div class="collapse navbar-collapse" id="navbarColor02" style="margin-left: 500px">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link" (click)="MisPedidos()">Mis pedidos</a>
+            <a class="nav-link" (click)="Volver()">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" (click)="MisPedidos()" style="margin-left: 50px">Mis pedidos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" (click)="Perfil()" style="margin-left: 50px">Perfil</a>
@@ -29,7 +32,7 @@
   </nav>
 </div>
 
-<div style="margin-left: 350px; margin-top: 50px; margin-right: 350px">
+<div style="margin-left: 150px; margin-top: 50px; margin-right: 150px">
   <div class="card mb-3">
     <h3 class="card-header">María Hernandez</h3>
     <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
@@ -37,10 +40,30 @@
       <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
     </svg>
     <div class="card-body">
-      <p class="card-text">Vende figuras de barro y de ceramica.</p>
-    </div>
-    <div class="card-body" style="margin: auto">
-      <button (click)="IrArtesano()" type="button" class="btn btn-primary">Ir</button>
+      <p class="card-text">Soy una artesana de la zona de Veracruz. Mi familia lleva haciendo artesanias desde hace 3 generaciones, la empezo mi bisabuelo viendo alebrijes
+       que hacia a mano en su pueblo, se iba durante 5 días a la ciudad de Orizaba a vender sus Productos.</p>
     </div>
   </div>
 </div>
+
+<div style="text-align: center; margin-top: 50px">
+  <h1>Mis artesanias</h1>
+</div>
+
+<div style="margin-left: 350px; margin-top: 50px; margin-right: 350px">
+  <div class="card mb-3">
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+      <rect width="100%" height="100%" fill="#868e96"></rect>
+      <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+    </svg>
+    <div class="card-body">
+      <p class="card-text">Alebrije</p>
+      <p class="card-text">$ 100.00</p>
+    </div>
+    <div class="card-body" style="text-align: center">
+      <button type="button" class="btn btn-primary">Comprar</button>
+    </div>
+  </div>
+</div>
+
+
