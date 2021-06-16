@@ -13,11 +13,11 @@ export class PrincipalComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  Subir() {
-
+  IrArtesano() {
+    this.router.navigate(['ingresar']);
   }
 
-  Registrar() {
-    this.router.navigate((['registrar']));
+  IrComprador() {
+    this.router.navigate(['ingresarC']);
   }
 }
