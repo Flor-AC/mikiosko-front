@@ -7,6 +7,8 @@ import {HomeComponent} from "./Aretesano/home/home.component";
 import {RegistrarAComponent} from "./Aretesano/registrar-a/registrar-a.component";
 import {IngresarComponent} from "./Aretesano/ingresar/ingresar.component";
 import {CompraComponent} from "./Cliente/compra/compra.component";
+import {ProductosComponent} from "./Aretesano/productos/productos.component";
+import {PedidosComponent} from "./Aretesano/pedidos/pedidos.component";
 
 const routes: Routes = [
   {path: 'principal', component: PrincipalComponent},
@@ -16,6 +18,8 @@ const routes: Routes = [
   {path: 'registrarC', component: RegistrarCComponent},
   {path: 'ingresarC', component: IngresarCComponent},
   {path: 'compra', component: CompraComponent},
+  {path: 'producto', component: ProductosComponent},
+  {path: 'pedido', component: PedidosComponent},
   {path: '', component: PrincipalComponent}
 ];
 

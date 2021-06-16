@@ -10,8 +10,8 @@ import { IngresarCComponent } from './Cliente/ingresar-c/ingresar-c.component';
 import { RegistrarCComponent } from './Cliente/registrar-c/registrar-c.component';
 import {IngresarComponent} from "./Aretesano/ingresar/ingresar.component";
 import {RegistrarAComponent} from "./Aretesano/registrar-a/registrar-a.component";
-import { PedidosComponent } from './Artesano/pedidos/pedidos.component';
-import { ProductosComponent } from './Artesano/productos/productos.component';
+import { PedidosComponent } from './Aretesano/pedidos/pedidos.component';
+import { ProductosComponent } from './Aretesano/productos/productos.component';
 
 @NgModule({
   declarations: [
