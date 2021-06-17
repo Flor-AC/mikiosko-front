@@ -17,10 +17,6 @@ export class PedidoscComponent implements OnInit {
     this.router.navigate(['compra']);
   }
 
-  Perfil() {
-    this.router.navigate(['perfil']);
-  }
-
   Principal() {
     this.router.navigate(['principal']);
   }

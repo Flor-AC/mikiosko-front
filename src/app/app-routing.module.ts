@@ -10,7 +10,6 @@ import {CompraComponent} from "./Cliente/compra/compra.component";
 import {ProductosComponent} from "./Aretesano/productos/productos.component";
 import {PedidosComponent} from "./Aretesano/pedidos/pedidos.component";
 import {PedidoscComponent} from "./Cliente/pedidosc/pedidosc.component";
-import {PerfilComponent} from "./Cliente/perfil/perfil.component";
 import {ArtesaniasComponent} from "./Cliente/artesanias/artesanias.component";
 
 const routes: Routes = [
@@ -24,7 +23,6 @@ const routes: Routes = [
   {path: 'producto', component: ProductosComponent},
   {path: 'pedido', component: PedidosComponent},
   {path: 'pedidoc', component: PedidoscComponent},
-  {path: 'perfil', component: PerfilComponent},
   {path: 'artesanias', component: ArtesaniasComponent},
   {path: '', component: PrincipalComponent}
 ];

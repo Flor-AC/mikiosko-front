@@ -17,10 +17,6 @@ export class CompraComponent implements OnInit {
     this.router.navigate(['pedidoc']);
   }
 
-  Perfil() {
-    this.router.navigate(['perfil']);
-  }
-
   Principal() {
     this.router.navigate(['principal']);
   }
